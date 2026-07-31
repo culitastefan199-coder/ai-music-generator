@@ -32,6 +32,6 @@ export async function POST(request: Request) {
 
   } catch (err) {
     console.error(err);
-    return NextResponse.json({ error: 'Eroare la generarea manelei' }, { status: 500 });
+    return NextResponse.json({ error: 'Eroare la generarea manelei' }, {  status: 500 });
   }
 }
